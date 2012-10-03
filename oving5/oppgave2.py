@@ -6,7 +6,7 @@ antall_timer_sosmedier = 0
 fortsett = True
 print('Du kan til en hver tid skrive "hade" for å avslutte')
 
-while fortsett == True:
+while fortsett:
 	kjonn = input('Skriv "k" om du er kvinne og "m" om du er mann: ')
 	if kjonn != 'hade':
 		if kjonn == 'k':
