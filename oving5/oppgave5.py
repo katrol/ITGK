@@ -7,6 +7,7 @@ def fib1(n):
 		fibmin1 = fib
 		fib = fibmin1 + fibmin2
 	print(fib)
+	return(fib)
 
 fib1(6)	
 
@@ -24,7 +25,7 @@ print(fib2(7))
 def listefib(n):
 	fibliste = []
 	for i in range(n):
-		fibliste.append(fib2(i))
+		fibliste.append(fib1(i))
 	print(fibliste)
 
-listefib(10)
+listefib(500)
