@@ -57,3 +57,4 @@ def workdays_in_year(year):
 
 for i in range(1900,1920):
 	print(i, 'har', workdays_in_year(i), 'arbeidsdager')
+weekday_newyear(2012)
